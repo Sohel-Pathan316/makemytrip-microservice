@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class hotel {
-    @GetMapping ("/hotel")
-    public String getdate() {return "Please book your hotels in pune & mumbai 10% discount" ; }
+public class bus {
+    @GetMapping ("/bus")
+    public String getdate() {return "Please book your bus in pune 30% discount" ; }
 }
